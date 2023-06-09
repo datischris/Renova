@@ -1,135 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Renova</title>
-  <style>
-    /* Add your custom CSS styles here */
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    .header {
-    text-align: center;
-    margin-bottom: 40px;
-    position: relative; /* Add this line */
-    }
-
-    img {
-    position: absolute; /* Add this line */
-    top: 20px; /* Adjust the top spacing as needed */
-    left: 20px; /* Adjust the left spacing as needed */
-    }
-
-    h1 {
-      font-size: 36px;
-      color: #333333;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 18px;
-      color: #666666;
-      margin-bottom: 20px;
-    }
-
-    .cta-button {
-      display: inline-block;
-      padding: 12px 24px;
-      font-size: 18px;
-      color: #ffffff;
-      background-color: #007bff;
-      border: none;
-      border-radius: 4px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-    }
-
-    .cta-button:hover {
-      background-color: #0056b3;
-    }
-
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 40px;
-    }
-
-    .feature {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .feature-icon {
-      font-size: 48px;
-      color: #007bff;
-      margin-bottom: 20px;
-    }
-
-    .feature-title {
-      font-size: 24px;
-      color: #333333;
-      margin-bottom: 10px;
-    }
-
-    .feature-description {
-      font-size: 18px;
-      color: #666666;
-    }
-
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    .footer-text {
-      font-size: 14px;
-      color: #666666;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renova Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <img src="C:\Users\Owner\Desktop\renova\Logo\Standard Logo Files\Original on Transparent.png" alt="Your Logo">
-      <h1>Your SaaS Product</h1>
-      <p>A brief description of your product and its benefits.</p>
-      <a href="#" class="cta-button">Get Started</a>
-    </div>
-    
-    <div class="features">
-      <div class="feature">
-        <div class="feature-icon">Icon 1</div>
-        <h3 class="feature-title">Feature 1</h3>
-        <p class="feature-description">Description of feature 1.</p>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">Icon 2</div>
-        <h3 class="feature-title">Feature 2</h3>
-        <p class="feature-description">Description of feature 2.</p>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">Icon 3</div>
-        <h3 class="feature-title">Feature 3</h3>
-        <p class="feature-description">Description of feature 3.</p>
-      </div>
-    </div>
+  <nav class="navbar">
+    <div class="navbar-wrapper">
+        <a href="/" aria-current="page" class="navbar-logo" aria-label="home">
+          <img src="images/Standard Logo Files/Original on Transparent.png" loading="lazy" width="155" alt="">
+        </a>
 
-    <div class="footer">
-      <p class="footer-text">Copyright © 2023 Renova. All rights reserved.</p>
+        <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="/faq.html" class="navbar-links">FAQ</a>
+          </li>
+          <li class="navbar-item">
+            <a href="/about-us.html" class="navbar-links">About Us</a>
+          </li>
+          <li class="navbar-btn">
+            <a href="/" class="button">Contact Us</a>
+          </li>
+        </ul>
     </div>
-  </div>
+  </nav>
+  <script src = "app.js"></script>
 </body>
 </html>
+
+<!--
+      <div class="navbar__container">
+      <a href="/" id="navbar__logo">Renova</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/faq.html" class="navbar__links">FAQ</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">About Us</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="/" class="button">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+      //-->
