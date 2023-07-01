@@ -7,6 +7,36 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    overflow: hidden;
+
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background: rgb(255, 0, 0);
+}
+
+.two {
+    background: rgb(43, 255, 0);
+}
+
+.three {
+    background: rgb(0, 47, 255);
 }
 
 /*formatting the navigation bar qualities*/
