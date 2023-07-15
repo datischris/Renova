@@ -23,7 +23,7 @@
     justify-content: center;
     min-height: 100vh;
     padding: 0 35px;
-    background: linear-gradient(to left top, #274ece, #7d19f0);
+    background: linear-gradient(to left top, #ffffff, #270949);
 }
 
 .wrapper {
@@ -130,16 +130,6 @@
     color: #6a6d78;
     font-size: 1.31rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 a {
